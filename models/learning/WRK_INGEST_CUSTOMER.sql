@@ -1,0 +1,1 @@
+select * from {{ source('snowflake_sample','CUSTOMER') }} LIMIT 10
