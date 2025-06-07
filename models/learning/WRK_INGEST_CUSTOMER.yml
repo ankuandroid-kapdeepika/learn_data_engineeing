@@ -1,0 +1,14 @@
+version: 2
+models:
+  - name: WRK_INGEST_CUSTOMER
+    config:
+      tags: ['learn_wrk_ingest_customer']
+      columns:
+      - name: C_CUSTKEY
+      - name: C_NAME
+      - name: C_ADDRESS
+      - name: C_NATIONKEY
+      - name: C_PHONE
+      - name: C_ACCTBAL
+      - name: C_MKTSEGMENT
+      - name: C_COMMENT
